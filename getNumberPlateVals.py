@@ -2,9 +2,7 @@ import base64
 import requests
 import json
 import re
-url = 'https://vision.googleapis.com/v1/images:annotate?key=############################'
-
-################# Get ab API Key from Google Cloud Platform - Google Cloud Vision API
+url = 'https://vision.googleapis.com/v1/images:annotate?key=#Get an API Key from Google Cloud Platform - Google Cloud Vision API'
 
 
 def detect_license_plate(encodedImage):
